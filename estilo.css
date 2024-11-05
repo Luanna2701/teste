@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: medium;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8deae;
+   background-image: url(https://cdn.shopify.com/s/files/1/1432/0090/products/M00F87_40cm.jpg?v=1498786058);
+  
+    background-position: center;
+}
+
+header {
+    background: #e66930;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container{
+    text-align: center;
+}
+
+
+
+.imagem{
+    text-align: left;
+}
+
+main {
+    padding: 20px;
+    margin: 8%;
+}
+p{
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.topics {
+    background: #fdb489;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.topics h3 {
+    margin-top: 0;
+}
+
+.topics ul {
+    list-style: none;
+    padding: 0;
+}
+
+.topics li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e66930;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
